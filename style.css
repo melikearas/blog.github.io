@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('images/bg.png');
+    font-family: Calibri,sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+.buyuk-resim {
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 50px;
+    border: 5px solid #b1135b;
+    width: fit-content;
+    opacity:0;
+    transition: all 1s ease-in;
+}
+
+.ana-div {
+    width: 900px;
+    min-height: 500px;
+    background-color: white;
+    margin: 50px auto 0 auto;
+    border: 2px solid #b1135b;
+    border-radius: 10px;
+}
+
+.ust-alan {
+    margin: 20px 20px 0 20px;
+}
+
+.logo {
+    float: left;
+    margin-top: 10px;
+}
+
+.baslik {
+    float: left;
+    margin-left: 10px;
+}
+
+    .baslik a {
+        color: #f4a6b4;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+        .baslik a i {
+            color: #c71080;
+            font-size: 14px;
+        }
+
+.sosyal-medya {
+    float: right;
+    margin-top: 14px;
+}
+
+    .sosyal-medya ul li {
+        float: left;
+        list-style: none;
+        margin-left: 20px;
+    }
+
+        .sosyal-medya ul li a {
+            text-decoration: none;
+        }
+
+.menu {
+    border-top: 1px solid #b1135b;
+    border-bottom: 1px solid #b1135b;
+    margin-top: 20px;
+}
+
+    .menu ul li {
+        list-style: none;
+        float: left;
+        margin-left: 20px;
+    }
+
+        .menu ul li a {
+            list-style: none;
+            float: left;
+            color: black;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+            .menu ul li a:hover {
+                background-color: #b1135b;
+                color: white;
+            }
+
+.anasayfa-metin {
+    float: left;
+    margin: 20px 0 0 20px;
+    width: 440px;
+}
+
+.anasayfa-gorsel {
+    float: right;
+    margin: 20px 20px 0 0;
+}
+
+.hakkimda {
+    margin: 20px 20px 0 20px;
+}
+
+    .hakkimda h3 {
+        margin-top: 20px;
+    }
+
+.hakkimda {
+    margin-top: 20px;
+}
+
+    .hakkimda ol {
+        margin: 10px 0 0 30px;
+    }
+
+.referans {
+    margin: 20px 20px 0 20px;
+}
+
+
+    .referans table {
+        margin-top: 20px;
+        border-color: black;
+        text-align: center;
+    }
+
+        .referans table th {
+            padding: 10px;
+        }
+
+        .referans table td {
+            padding: 10px;
+        }
+
+.egitim {
+    margin: 20px 20px 0 20px;
+}
+
+
+    .egitim table {
+        margin-top: 20px;
+        border-color: black;
+        text-align: center;
+    }
+
+        .egitim table th {
+            padding: 10px;
+        }
+
+        .egitim table td {
+            padding: 10px;
+        }
+
+.iletisim {
+    margin: 20px 20px 0 20px;
+}
+
+    .iletisim form {
+        margin-top: 20px;
+    }
+
+.alt-alan {
+    margin: 20px 20px 0 20px;
+    padding: 20px 0;
+    border-top: 1px solid black;
+    text-align: center;
+}
